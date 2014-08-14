@@ -1,7 +1,7 @@
 IRuby box
 =========
 
-Install IRuby in an Ubuntu Trusty Desktop box.
+Install IRuby in a Vagrant box using an Ubuntu Trusty Desktop.
 
 Ruby kernel for IPython Notebook - https://github.com/minad/iruby
 
