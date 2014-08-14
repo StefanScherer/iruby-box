@@ -22,10 +22,11 @@ cd demo
 iruby notebook
 ```
 
-A web browser with http://localhost:8888 opens up and you can start using the IRuby Notebook.
+A web browser with [http://localhost:8888](http://localhost:8888) opens up and you can start using the IRuby Notebook.
 
 ## TODOs
 
 * Port forwarding 8888 from host to guest 8888 doesn't seem to work.
 * Use a headless box after port forwarding works.
 * Update docs to write the notebook in shared folder `/vagrant/demo` and update `.gitignore` file.
+* Write a `Dockerfile` instead.
