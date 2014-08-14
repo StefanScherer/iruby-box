@@ -22,6 +22,8 @@ cd demo
 iruby notebook
 ```
 
+A web browser with http://localhost:8888 opens up and you can start using the IRuby Notebook.
+
 ## TODOs
 
 * Port forwarding 8888 from host to guest 8888 doesn't seem to work.
