@@ -1,10 +1,11 @@
-iruby-box
+IRuby box
 =========
 
 Install IRuby in an Ubuntu Trusty Desktop box.
 
-Ruby kernel for IPython Notebook 
-https://github.com/minad/iruby
+Ruby kernel for IPython Notebook - https://github.com/minad/iruby
+
+![IRuby](https://raw.githubusercontent.com/minad/iruby/master/screenshot.png)
 
 ## Installation
 
