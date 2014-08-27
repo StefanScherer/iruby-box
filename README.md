@@ -25,7 +25,7 @@ cd /vagrant/resources/yournotebook
 iruby notebook --ip='*'
 ```
 
-To stop the iruby process of the `vagrant up` call, use `killall iruby` or use another port to start you own notbook. But then you have to forward the port in the `Vagrantfile`.
+To stop the iruby process of the `vagrant up` call, use `killall ipython` or use another port to start you own notbook. But then you have to forward the port in the `Vagrantfile`.
 
 Open up your browser inside the VM and open `http://localhost:8888`
 
