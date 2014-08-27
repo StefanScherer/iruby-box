@@ -1,21 +1,34 @@
 # IRuby box
 
-With this Vagrantfile you can install IRuby in an Ubuntu Desktop box.
+With this Vagrantfile you can install IRuby in an Ubuntu headless box.
+A demo IRuby Notebook will be started for you.
+
+The IRuby Notebook will be saved in `resources/demo` to survive a `vagrant destroy`.
 
 ## Installation
 
 ```
 git clone https://github.com/StefanScherer/iruby-box
 cd iruby-box
-vagrant up
+vagrant up --provider=virtualbox
 ```
 
 ## Create new IRuby Notebok
 ```
-cd
-mkdir /p demo
-cd demo
-iruby notebook
+vagrant ssh
+mkdir /p /vagrant/resources/yournotebook
+cd /vagrant/resources/yournotebook
+iruby notebook --ip='*'
 ```
 
-Open up your browser inside the VM and open `http://anonymous:8888`
+To stop the iruby process of the `vagrant up` call, use `killall iruby` or use another port to start you own notbook. But then you have to forward the port in the `Vagrantfile`.
+
+Open up your browser inside the VM and open `http://localhost:8888`
+
+On your host machine, just use this command
+
+```
+open http://localhost:8888
+```
+
+and this will open your IRuby Notebook in your host's browser.
