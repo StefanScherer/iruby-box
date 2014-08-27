@@ -1,8 +1,12 @@
 # IRuby box
 
 With this Vagrantfile you can install IRuby in an Ubuntu headless box.
-A demo IRuby Notebook will be started for you.
 
+Ruby kernel for IPython Notebook - https://github.com/minad/iruby
+
+![IRuby](https://raw.githubusercontent.com/minad/iruby/master/screenshot.png)
+
+A demo IRuby Notebook will be started for you.
 The IRuby Notebook will be saved in `resources/demo` to survive a `vagrant destroy`.
 
 ## Installation
